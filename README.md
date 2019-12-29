@@ -1,7 +1,12 @@
 # ReactNative-Crud
 
+React Native Crud application using firebase.
+
+# How to Use this project
+
 Go to FB.js and replace your firebase detail.
 
+```
 import * as firebase from 'firebase'
 var firebaseConfig = {
     apiKey: "Add Your API Key",
@@ -13,5 +18,4 @@ var firebaseConfig = {
     appId: "Add Your APP ID"
   };
 firebase.initializeApp(firebaseConfig)
-
-export default firebase
+```
